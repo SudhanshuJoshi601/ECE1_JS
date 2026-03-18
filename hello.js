@@ -1,14 +1,6 @@
-<script type="text/javascript">
-
-
-
-
-
-</script>
-
-for(key in object){
-
+ /*for(key in object){
 }
+
 const person={
 
     fname:"Ajay",
@@ -17,7 +9,6 @@ const person={
 };
 for(let x in person){
     console.log("person details:"+x+";"+person[x])
-}
 
 
 var age=20;
@@ -41,3 +32,23 @@ switch(grade){
     break;
 
 }
+
+
+function myfunction(){
+    alert("Hello World")
+}
+
+
+
+var person={
+    name:John Mac ,
+    age:30;
+    isMarried:true;
+    address:{
+        street:Vijay Nagar ,
+        FlatNo.:102
+    }
+};
+
+
+console.log{person}*/
