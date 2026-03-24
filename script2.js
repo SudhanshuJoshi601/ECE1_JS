@@ -28,4 +28,4 @@ mouseout onmouseout
 mousedown onmousedown
 mouseup onmouseup
 mousemove onmousemove
-doubleclick ondoubleclick */
+doubleclick ondoubleclic */
