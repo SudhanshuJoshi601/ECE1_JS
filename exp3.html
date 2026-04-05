@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Management System</title>
+<link rel="stylesheet" href="exp3.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Employee Management System</h1>
+
+    <div class="form-section">
+        <input type="text" id="empName" placeholder="Employee Name">
+        <input type="text" id="empId" placeholder="Employee ID">
+        <input type="number" id="empSalary" placeholder="Salary">
+
+        <select id="empDept">
+            <option value="IT">IT</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="Sales">Sales</option>
+        </select>
+
+        <button onclick="addEmployee()">Add Employee</button>
+    </div>
+
+    <div class="controls">
+        <button onclick="displayEmployees()">Display All</button>
+        <button onclick="filterHighSalary()">Salary > 50,000</button>
+        <button onclick="calculateTotalPayout()">Total Payout</button>
+        <button onclick="calculateAverage()">Average Salary</button>
+    </div>
+
+    <div id="outputSection">
+        <h3>Results:</h3>
+        <div id="resultDisplay">No data added yet.</div>
+    </div>
+</div>
+
+<script src="exp3.js"></script>
+</body>
+</html>
